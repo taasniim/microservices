@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Hello our fisrt microservices app');
 });
 
-const port = 3000;
+const port = 4000;
 
 app.listen(port, () => {
   console.log(`server run on port${port}`);
